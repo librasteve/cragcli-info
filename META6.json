@@ -1,0 +1,19 @@
+{
+    "name": "Cragcli",
+    "description": "cragcli.info website",
+    "version": "0.0.1",
+    "authors": [
+        "librasteve"
+    ],
+    "auth": "zef:librasteve",
+    "depends": [
+        "Air",
+        "Air::Plugin::Asciinema"
+    ],
+    "build-depends": [],
+    "provides": {
+        "Cragcli": "lib/Cragcli.rakumod"
+    },
+    "license": "Artistic-2.0",
+    "source-url": "https://github.com/librasteve/Cragcli.git"
+}

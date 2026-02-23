@@ -1,0 +1,3 @@
+cragcli.info {
+    reverse_proxy webapp:3000
+}
