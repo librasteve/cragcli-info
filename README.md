@@ -22,11 +22,8 @@ You will also need a SASS compiler such as Dart.
 - `git clone https://github.com/librasteve/cragcli-info.git`
 - `cd Cragcli`
 
-### Set ENV vars for host and port
-- `export CRO_WEBSITE_HOST="0.0.0.0" && export CRO_WEBSITE_PORT="3000"`
-
 ### Run and view it
-- `raku -I. service.raku`
+- `raku -I. air-serve.raku :scss :watch`
 - Open a browser and go to `http://localhost:3000`
 
 ---
@@ -58,13 +55,11 @@ sudo docker-compose down
 
 The following improvements are planned:
 - add cron job & script to have the server poll for new releases (and to download and restart)
-- adjust the Dockerfile RUN CMD to use site.launch
-- bring over to Air::Examples
 
 ---
 
 # COPYRIGHT AND LICENSE
 
-Copyright(c) 2025 Henley Cloud Consulting Ltd.
+Copyright(c) 2026 Henley Cloud Consulting Ltd.
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
