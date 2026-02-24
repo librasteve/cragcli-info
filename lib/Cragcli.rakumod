@@ -150,7 +150,7 @@ site :@tools, :register[Background.new, LightDark.new, Air::Plugin::Asciinema.ne
                                   - `@a = (1,2,3,4)` number list
                                   - `@s = <a b c d>` word list
                                 END
-                                code-note 'persistent storage';
+                                code-note 'memory for intermediate results';
                             ];
                             article [
                                 asciinema '/static/demos/demo4.cast';
