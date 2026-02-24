@@ -192,8 +192,8 @@ site :@tools, :register[Background.new, LightDark.new, Air::Plugin::Asciinema.ne
                                   - `|(5..12)` use `|()` to flatten it
                                   - `(5..12)[3]` indexing (from 0)
                                   - `|^12` use `^` as a shorthand for `0..11`
-                                  - `3,6...15` the sequence operator (arithmetic)
-                                  - `1,2,4...16` the sequence operator (geometric)
+                                  - `3,6...15` arithmetic sequence
+                                  - `1,2,4...16` geometric sequence
                                   - `(0,1,*+*...Inf)[^8]` fibonacci sequence (first 8)
 
                                 Use the `*` _whatever_ to define the next-value operation.
@@ -316,10 +316,10 @@ site :@tools, :register[Background.new, LightDark.new, Air::Plugin::Asciinema.ne
                             article [ markdown q:to/END/;
                                 #### 11. LLM Queries & Timers
 
-                                  - `?<what is an LLM>` text LLM query
-                                  - `?^<mass of an elephant in kg>` make a unit from an LLM query
-                                  - `sleep 4; say "Wake up it's {DateTime.now.hh-mm-ss} \a\a\a"` use this calculator as an alarm clock
-                                  - `qx<clear>` run an external command in the system shell
+                                  - `?<what is an elephant>` LLM to text
+                                  - `?^<mass of an elephant in kg>` LLM to unit
+                                  - `sleep 4; say "Wake up it's {DateTime.now.hh-mm-ss} \a\a\a"` an alarm clock
+                                  - `qx<clear>` exec shell command
 
                                 Use query and caret like this `?<>` and this `?^<>`.
                                 END
