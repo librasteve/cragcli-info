@@ -41,7 +41,7 @@ my &index = &page.assuming( #:REFRESH(15),
     |),
 );
 
-my @tools = [Analytics.new: :provider(Umami), :key<35777f61-5123-4bb8-afb1-aced487af36e>,];
+my @tools = [Analytics.new: :provider(Umami), :key<132eec10-cb18-4a4a-be38-84f6d693f249>,];
 
 # https://commons.wikimedia.org/wiki/File:Horsenden_Hill_contours.jpg#Licensing
 my &shadow = &background.assuming(
