@@ -46,7 +46,7 @@ my @tools = [Analytics.new: :provider(Umami), :key<132eec10-cb18-4a4a-be38-84f6d
 # https://commons.wikimedia.org/wiki/File:Horsenden_Hill_contours.jpg#Licensing
 my &shadow = &background.assuming(
     :src</img/Horsenden_Hill_contours.jpg>,
-    :top(120), :height(480), :size('cover'),
+    :top<120px>, :height<480px>, :size<cover>,
 );
 
 our $site =
