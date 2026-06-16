@@ -68,6 +68,8 @@ crontab -e (as root)
 */15 * * * * /home/ubuntu/update-sites.sh >> /var/log/update-sites.log 2>&1
 ```
 
+Note: each time you commit to main, the CI script builds a new Docker image and pushes it to quay.io/librasteve/cragcli-info - you may wish to prune older versions from time to time.
+
 ---
 
 # COPYRIGHT AND LICENSE
